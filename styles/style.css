@@ -7,3 +7,17 @@ h1{
     border-radius: 20px;
 
 }
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+       
