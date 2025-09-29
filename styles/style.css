@@ -3,9 +3,22 @@ h1{
 }
 .p {
     margin-bottom: 30px;
+    color: brown;
 }
 .div {
     padding: 20px;
+    color: #2563eb;
+}
+.box {
+    width: 150px;
+    height: 80px;
+    background: lightgreen;
+    margin: 10px;
+    border: 2px solid green;
+
+    position: relative;
+    top: 20;
+    left: 30;
 }
 .menu a {
     display: inline-block;
@@ -36,5 +49,75 @@ h1{
 .inline-block {
     display: inline-block;
 }
+.parent {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+}
+.child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: coral;
+}
+.row { display: flex; gap: 12px; }
+.box {
+    width: 80px;
+    height: 80px;
+    background: #e2e8f0;
+    
+    border: 2px solid #94a3b8;
+}    
+.abs {
+    position: absolute;
+    height: 80px;
+ 
+}
+.card {
+    position: relative;
+    width: 260px;
+    padding: 16px;
+    background: #f8fafc;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    
+}
 
+.badge {
+    
+    position: absolute;
+top: 10px;
+right: 10px;
+background: #ef4444;
+color: #fff;
+padding: 4px 8px;
+border-radius: 9999px;
+}
        
+.pane{ height: 400px; background: #e0f2fe; margin: 24px; }
+.floating {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #22c55e;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.stage {
+    position: relative;
+    width: 360px;
+    height: 220px;
+    margin: 24px;
+    background: #fff7ed;
+}
+.modal {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #1d4ed8;
+color:#fff;
+}
