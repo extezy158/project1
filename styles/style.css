@@ -121,3 +121,62 @@ transform: translate(-50%, -50%);
 background: #1d4ed8;
 color:#fff;
 }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #3025d1;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background: lightblue;
+    z-index: 1;
+}
+.window {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 200px; height: 100px;
+    background: white;
+   border: 2px solid black;
+   z-index: 10;
+}
+
+.container {
+   display: flex;
+   border: 2px solid black;
+   padding: 10px;
+   gap: 100px;
+  
+}
+
+.item {
+    background: lightblue;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 20px;
+}
