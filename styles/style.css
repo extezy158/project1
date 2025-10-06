@@ -20,7 +20,7 @@ h1{
     top: 20;
     left: 30;
 }
-.menu a {
+.menu1 a {
     display: inline-block;
     background: #2563eb;
     color:white;
@@ -180,3 +180,4 @@ color:#fff;
     padding: 20px;
     font-size: 20px;
 }
+
