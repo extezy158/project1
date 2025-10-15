@@ -38,7 +38,47 @@
             <div class="text">Шарик</div>
         <button class="animation-button">Click</button>
 <a class="a-underline" href="#">Красивая ссылкa</a>
-<div class="fadi-in">Привет! Я пояивился красиво</div>
+<div class="fade-in">Привет! Я пояивился красиво</div>
+<div class="card">
+    <h3>Заголовок</h3>
+    <p>Немного текста про карточку</p>
+</div>
+<div class="grad">Мягкий градиентный фон</div>
 </header>
+    <form action="/search" method="GET">
+        <label for="q">Поиск</label>
+        <input id="q" name="q" type="text" placeholder="Что ищем?" />
+     <p><label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email" placeholder="Введите email"> </p>
+       <p><label for="city">Город</label>
+    <select id="city" name="city">
+        <option value="msk">Москва</option>
+        <option value="spb">Санкт-Петербург</option>
+        <option value="mnsk">Минск</option>
+    </select></p> 
+        <button type="submit">Найти</button>
+    </form>
+
+
+    <form class="auth" action="/signup" method="post">
+        <h3 class="auth_title">Регистрация</h3>
+
+        <label class="auth_label">Имя
+            <input class="auth_input" name="name" type="text"placeholder="Ваше имя" required autocomplete="name">
+        </label>
+
+        <label class="auth_label">Email
+            <input class="auth_input" name="email" type="email"placeholder="Ваша почта" required autocomplete="email">
+        </label>
+
+        <label class="auth_label"><Пароль
+            <input class="auth_input" name="password" type="password" required autocomplete="password" placeholder="********">
+        </label>
+
+        <button class="auth_btn" type="submit">Создать</button>
+
+        
+    </form>
+     
         </body>
 </html>
