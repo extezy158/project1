@@ -68,10 +68,10 @@
         </label>
 
         <label class="auth_label">Email
-            <input class="auth_input" name="email" type="email"placeholder="Ваша почта" required autocomplete="email">
+            <input class="auth_input" name="email" type="email"placeholder="Ваша почта" required autocomplete="email" placeholder="ВВедите email">
         </label>
 
-        <label class="auth_label"><Пароль
+        <label class="auth_label">Пароль
             <input class="auth_input" name="password" type="password" required autocomplete="password" placeholder="********">
         </label>
 
@@ -79,6 +79,50 @@
 
         
     </form>
-     
+
+    <form action="/send" method="post">
+        <input type="text" name="name" placeholder="Имя" required>
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+
+    </form>
+         
+<form class="form" action="/send" method="POST">
+
+    <button class="form_button form_button--ptimary" type="submit">
+    <span class="form_button-icon" aria-hidden="true">💩</span>
+    <span class="form_button-text">Отправить</span>
+
+</button>
+</form>
+
+<label class="form_optinon">
+    <input class="form_checkbox" type="checkbox" id="agree" name="agree" value="yes" >
+    <span class="form_optinon-text">Согласен с условиями</span>
+    
+</label>
+
+<fieldset class="form_group">
+    <legend class="form_label">пол</legend>
+
+
+    <label class="form_optinon">
+        <input class="form_radio" type="radio" name="gender" value="male">
+        <span class="form_option-text">Мужской</span>
+    </label>
+
+    <label class="form_optinon">
+        <input class="form_radio" type="radio" name="gender" value="female">
+        <span class="form_option-text">Женский</span>
+    </label>
+</fieldset>
+
+<form class="form" action="/upload" method="POST" enctype="multipart/form-data">
+    <label class="form_optinon">
+    <span class="form_option-text">Аватар</span>
+    <input class="form_file" type="file" name="avatar" accept="image/*">
+    </label>
+    <button class="form_button form_button--primary" type="submit">Загрузить</button>
+</form>
         </body>
 </html>
