@@ -9,35 +9,35 @@ scrollbutton.addEventListener("click", () => {
 })
 let message;
 message = 'hello';
-alert(message);
+console.log(message);
  let favorite_food='pizza'
- alert(`my favorite food is ${favorite_food}`)
+ console.log(`my favorite food is ${favorite_food}`)
  let age=20;
  age=21;
- alert(`my age is ${age}`)
+ console.log(`my age is ${age}`)
  const pi='3.14';
-  alert(`the value of pi is ${pi}`)
+  console.log(`the value of pi is ${pi}`)
 let n=123;
 n=12.345;
 let isSunny=true;
 let isRaining=false;
 if(isSunny){
-    alert('можно идти гулять')
+    console.log('можно идти гулять')
 }
 if(isRaining){
-    alert('нельзя идти гулять')
+    console.log('нельзя идти гулять')
 }
 let box=null;
 let anthBox=undefined;
-alert(box, anthBox);
+console.log(box, anthBox);
 let item={
     tittle:"Книга",
     pages: 200,
     available: true
 };
-alert(item.tittle);
+console.log(item.tittle);
 let colors=['red', 'green', 'blue'];
-alert(colors[0]);
+console.log(colors[0]);
 
 let temperature=25;
 if(temperature>=25){
@@ -115,3 +115,89 @@ console.log(status);
 let zakazreg=true;
 let zakazstatus=zakazreg?'заказ готов':'в сборке';
 console.log(zakazstatus);
+for(let i=5;i<16;i++){
+    console.log(i)
+}
+
+let ii=1;
+while(ii<=3){
+    console.log('шаг'+ii)
+    ii++
+}
+let cikl=10;
+while(cikl>0){
+    console.log(cikl)
+    cikl--
+}
+
+let password=1234;
+do{
+    password=prompt('введите пароль')
+} while(password!=1234);
+alert('пароль принят')
+
+let chislo=5;
+do{
+    chislo=prompt('введите цифру')
+}while(chislo!='5');
+
+let fruits=['яблоко','груша','апельсин'];
+for(let fruit of fruits){ 
+    console.log(fruit)
+}
+
+for (let letter of 'привет'){
+    console.log(letter)
+}
+
+let animals=['жираф','обезьяна','кот', 'собака'];
+for(let animal of animals){ 
+    console.log(animal)
+}
+
+let person={name:"Anna", age:15, city:'Minsk'};
+
+for(let key in person){
+    console.log(key +": "+person[key])
+}
+
+let aboutme={name:"Vlad", age:15, city:'Minsk'};
+
+for(let me in aboutme){
+    console.log(me +": "+aboutme[me])
+}
+
+for(let i=1;i<=5;i++){
+    if(i==3) continue;
+    console.log(i)
+}
+console.log("next")
+for(let i=1;i<=10;i++){
+    if(i%2===0) continue;
+    
+    console.log(i)
+}
+console.log("next")
+let ik=0;
+
+for(i=1;i<=5;i++){
+ik=ik+i; 
+
+}console.log(ik)
+
+console.log("next")
+
+let umn=3;
+for(i=1;i<=10;i++){
+    console.log(umn,"*",i)
+}
+console.log("next")
+
+let fruitWord="Ананас";
+let fruitWordCount=0;
+
+for(let letter of fruitWord.toLowerCase()){
+    if(letter==="а") fruitWordCount++;
+}
+console.log("Букв в слове $[fruitWord] - $[fruitWordCount]");)
+}
