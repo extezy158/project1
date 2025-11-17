@@ -130,7 +130,7 @@ while(cikl>0){
     cikl--
 }
 
-let password=1234;
+/*let password=1234;
 do{
     password=prompt('введите пароль')
 } while(password!=1234);
@@ -140,7 +140,7 @@ let chislo=5;
 do{
     chislo=prompt('введите цифру')
 }while(chislo!='5');
-
+*/
 let fruits=['яблоко','груша','апельсин'];
 for(let fruit of fruits){ 
     console.log(fruit)
@@ -199,5 +199,62 @@ let fruitWordCount=0;
 for(let letter of fruitWord.toLowerCase()){
     if(letter==="а") fruitWordCount++;
 }
-console.log("Букв в слове $[fruitWord] - $[fruitWordCount]");)
+console.log("Букв в слове $[fruitWord] - $[fruitWordCount]");
+
+
+const generateSumFinder=()=>{
+const sum=(a,b)=>a=b;
+return sum;
+    };
+const sum=generateSumFinder();
+const square=x=>x*x;
+console.log(square(5));
+
+const obj={
+name:"test",
+show() {
+    console.log(this.name)
 }
+};
+
+obj.show();
+
+let name="Nikolay";
+
+function sayHi(){
+    alert('Hi'+name);
+}
+name="Irina";
+
+sayHi();
+
+function makeCounter(){
+    let count=0;
+    return function(){
+        count++;
+        console.log(count)
+    };
+}
+let  counter=makeCounter();
+counter();
+counter();
+
+console.log('next')
+
+function makeWorker() {
+let name='Nikolay';
+
+return function() {
+    alert(name);
+};
+}
+function sum1(a,b,c){
+    console.log(a+b+c)
+ }
+ sum1(7,213,312)
+
+ const generateUmnFinder=()=>{
+    const Umn=(a,b,c)=>a*b*c;
+    return Umn;
+        };
+    const Umn=generateUmnFinder();
