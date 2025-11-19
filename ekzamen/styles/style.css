@@ -1,0 +1,187 @@
+body{
+    background-color: #cfffff;
+}
+
+h1{
+    color: blue;
+}
+.p {
+    margin-bottom: 30px;
+    color: brown;
+}
+.div {
+    padding: 20px;
+    color: #2563eb;
+}
+.box {
+    width: 150px;
+    height: 80px;
+    background: lightgreen;
+    margin: 10px;
+    border: 2px solid green;
+
+    position: relative;
+    top: 20;
+    left: 30;
+}
+.menu1 a {
+    display: inline-block;
+    background: #2563eb;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.project{
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+.parent {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+}
+.child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: coral;
+}
+.row { display: flex; gap: 12px; }
+.box {
+    width: 80px;
+    height: 80px;
+    background: #e2e8f0;
+    
+    border: 2px solid #94a3b8;
+}    
+.abs {
+    position: absolute;
+    height: 80px;
+ 
+}
+.card {
+    position: relative;
+    width: 260px;
+    padding: 16px;
+    background: #f8fafc;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    
+}
+
+.badge {
+    
+    position: absolute;
+top: 10px;
+right: 10px;
+background: #ef4444;
+color: #fff;
+padding: 4px 8px;
+border-radius: 9999px;
+}
+       
+.pane{ height: 400px; background: #e0f2fe; margin: 24px; }
+.floating {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #22c55e;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.stage {
+    position: relative;
+    width: 360px;
+    height: 220px;
+    margin: 24px;
+    background: #fff7ed;
+}
+.modal {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #1d4ed8;
+color:#fff;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #3025d1;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background: lightblue;
+    z-index: 1;
+}
+.window {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 200px; height: 100px;
+    background: white;
+   border: 2px solid black;
+   z-index: 10;
+}
+
+.container {
+   display: flex;
+   border: 2px solid black;
+   padding: 10px;
+   gap: 100px;
+  
+}
+
+.item {
+    background: lightblue;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 20px;
+}
+

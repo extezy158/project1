@@ -1,0 +1,208 @@
+.logo{
+left: 20px;
+width: 60px;
+height: 28px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.arch{
+position: absolute;
+width: 45.74px;
+height: 15.62px;
+left: 240px;
+top: 0px;
+
+color: #FD665E;
+}
+.move{
+position: absolute;
+width: 50.86px;
+height: 10.63px;
+left: 249px;
+top: 17.37px;
+
+color: #FD665E;
+}
+
+.nav-item{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+width: 385px;
+height: 40px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.header{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 485.57px;
+height: 40px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.hiw{
+    
+
+width: 90px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #2C2C2C;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.dg{
+
+width: 100px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #2C2C2C;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.arhi{
+    
+
+width: 70px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #2C2C2C;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.art{
+
+width: 53px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #2C2C2C;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+
+
+.verify{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 227.06px;
+height: 48px;
+}
+.lupa{
+    
+
+    width: 14px;
+    height: 14px;
+    
+    background: #585858;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    }
+
+    .si{
+
+width: 47px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #2C2C2C;
+
+
+    }
+
+    .suu{
+       
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 24px;
+gap: 10px;
+
+width: 102px;
+height: 48px;
+
+background: #FD665E;
+border-radius: 4px;
+
+
+    }
+    

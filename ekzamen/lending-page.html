@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="lending.css">
+        </head>
+        <body>
+<header>
+    <h1>
+        Сайт
+    </h1>
+    <nav class="menu">
+        <a>Главная</a>
+        <a>О нас</a>
+        <a>Услуги</a>
+        <a>Контакты</a>
+    </nav>
+    <div class="container">
+    <div class="item">1 </div>
+    <div class="item special">2 </div>
+    <div class="item">3 </div>
+    <div class="item">4 </div>
+        </div>
+        <section class="cards">
+            <article class="card1"><a> Каталог объектов</a>
+            Широкий выбор недвижимости для вашего бизнеса</article>
+            <article class="card2"><img src="ofis.jpg" alt="ofis" widht="12.5" height="125" > </article>
+            <article class="card3"><img src="sklad.jpg" alt="ofis" widht="12.5" height="125" ></article>
+            <article class="card4"><img src="selo.jpg" alt="ofis" widht="12" height="125" ></article>
+            
+        </section>
+
+        <div class="loader"></div>
+        <div class="ball"></div>
+            <div class="text">Шарик</div>
+        <button class="animation-button">Click</button>
+<a class="a-underline" href="#">Красивая ссылкa</a>
+<div class="fade-in">Привет! Я пояивился красиво</div>
+<div class="card">
+    <h3>Заголовок</h3>
+    <p>Немного текста про карточку</p>
+</div>
+<div class="grad">Мягкий градиентный фон</div>
+</header>
+    <form action="/search" method="GET">
+        <label for="q">Поиск</label>
+        <input id="q" name="q" type="text" placeholder="Что ищем?" />
+     <p><label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email" placeholder="Введите email"> </p>
+       <p><label for="city">Город</label>
+    <select id="city" name="city">
+        <option value="msk">Москва</option>
+        <option value="spb">Санкт-Петербург</option>
+        <option value="mnsk">Минск</option>
+    </select></p> 
+        <button type="submit">Найти</button>
+    </form>
+
+
+    <form class="auth" action="/signup" method="post">
+        <h3 class="auth_title">Регистрация</h3>
+
+        <label class="auth_label">Имя
+            <input class="auth_input" name="name" type="text"placeholder="Ваше имя" required autocomplete="name">
+        </label>
+
+        <label class="auth_label">Email
+            <input class="auth_input" name="email" type="email"placeholder="Ваша почта" required autocomplete="email" placeholder="ВВедите email">
+        </label>
+
+        <label class="auth_label">Пароль
+            <input class="auth_input" name="password" type="password" required autocomplete="password" placeholder="********">
+        </label>
+
+        <button class="auth_btn" type="submit">Создать</button>
+
+        
+    </form>
+
+    <form action="/send" method="post">
+        <input type="text" name="name" placeholder="Имя" required>
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+
+    </form>
+         
+<form class="form" action="/send" method="POST">
+
+    <button class="form_button form_button--ptimary" type="submit">
+    <span class="form_button-icon" aria-hidden="true">💩</span>
+    <span class="form_button-text">Отправить</span>
+
+</button>
+</form>
+
+<label class="form_optinon">
+    <input class="form_checkbox" type="checkbox" id="agree" name="agree" value="yes" >
+    <span class="form_optinon-text">Согласен с условиями</span>
+    
+</label>
+
+<fieldset class="form_group">
+    <legend class="form_label">пол</legend>
+
+
+    <label class="form_optinon">
+        <input class="form_radio" type="radio" name="gender" value="male">
+        <span class="form_option-text">Мужской</span>
+    </label>
+
+    <label class="form_optinon">
+        <input class="form_radio" type="radio" name="gender" value="female">
+        <span class="form_option-text">Женский</span>
+    </label>
+</fieldset>
+
+<form class="form" action="/upload" method="POST" enctype="multipart/form-data">
+    <label class="form_optinon">
+    <span class="form_option-text">Аватар</span>
+    <input class="form_file" type="file" name="avatar" accept="image/*">
+    </label>
+    <button class="form_button form_button--primary" type="submit">Загрузить</button>
+</form>
+        </body>
+</html>

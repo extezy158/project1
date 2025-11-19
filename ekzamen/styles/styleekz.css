@@ -1,0 +1,1973 @@
+.logo-nav{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+margin-left: 500px;
+
+width: 485.57px;
+height: 40px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.logo-arch{
+
+width: 60.57px;
+height: 28px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.move{
+
+width: 50.86px;
+height: 10.63px;
+left: 9.71px;
+top: 17.37px;
+color: #FD665E;
+}
+
+.Arch{
+width: 45.74px;
+height: 15.62px;
+left: 0px;
+top: 0px;
+color: #FD665E;
+}
+
+.nav-item{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+width: 385px;
+height: 40px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.HIT{
+width: 90px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+color: #2C2C2C;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.DG{
+width: 100px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #2C2C2C;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.Arht{
+width: 70px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #2C2C2C;
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.Art{
+width: 53px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #2C2C2C;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.wrapper{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+margin-left: 1500px;
+width: 227.06px;
+height: 48px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.search{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 8px;
+width: 30.06px;
+height: 30.06px;
+background: #F0F0F0;
+border-radius: 56px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Vector{
+width: 14.06px;
+height: 14.06px;
+background: #585858;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.SI{
+width: 47px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #2C2C2C;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.button{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 24px;
+gap: 10px;
+width: 102px;
+height: 48px;
+background: #FD665E;
+border-radius: 4px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.SU{
+width: 54px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.hero{
+    /* hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+gap: 64px;
+
+width:1440px;
+
+
+}
+
+.BYDH{
+/* Build Your Dream House */
+
+width: 1168px;
+height: 192px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 100%;
+/* or 96px */
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.house{
+    color: #FD665E;
+}
+
+.wrapper1{
+/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1168px;
+height: 480px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.content{
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 305px;
+height: 174px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.text{
+/* 100% guaranteed build safe, comfortable and transparent with a project management for the best result */
+
+width: 305px;
+height: 78px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.button-h1{
+display: flex;
+flex-direction: row;
+
+padding: 8px 64px;
+gap: 10px;
+
+width: 187px;
+height: 56px;
+
+background: #FD665E;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.FC{
+/* Free Consultation */
+
+width: 123px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height, or 286% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.img1{
+/* Image */
+
+margin: 0 auto;
+width: 765px;
+height: 480px;
+
+background: url(image1.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.gallery{
+/* gallery */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 40px;
+
+width: 1440px;
+height: 752px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}   
+
+.title-button{
+/* title + button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 126px;
+
+width: 1168px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.BPVR{
+/* Build professional valuable room */
+
+margin: 0 auto;
+width: 535px;
+height: 120px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 124%;
+/* or 60px */
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.wrapper2{
+/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 104px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.button-icon{
+/* button icon */
+
+width: 48px;
+height: 48px;
+
+background: rgba(0, 0, 0, 0.03);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.dc{
+/* dashicons:arrow-right-alt */
+
+
+width: 20px;
+height: 20px;
+left: 14px;
+top: 14px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.vector2{
+/* Vector */
+
+
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+color: #FD665E;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.button-icon1{
+/* button icon */
+
+width: 48px;
+height: 48px;
+
+background: rgba(0, 0, 0, 0.03);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.dc2{
+/* dashicons:arrow-right-alt */
+
+
+width: 20px;
+height: 20px;
+left: 14px;
+top: 14px;
+
+
+}
+
+.vector3{
+/* Vector */
+
+
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+color: #FD665E;
+
+}
+
+.wrapper3{
+/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 1340px;
+height: 432px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.img2{
+/* img-01 */
+
+width: 305px;
+height: 432px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.img3{
+    /* img-02 */
+
+width: 305px;
+height: 432px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.img4{
+    /* img-02 */
+
+width: 305px;
+height: 432px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.img5{
+    /* img-02 */
+
+width: 305px;
+height: 432px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+        .value{/* value */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px 136px;
+gap: 64px;
+
+width: 1440px;
+height: 890px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+        .wrapper4{/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 1168px;
+height: 610px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+        .img6{/* img-5 */
+
+margin: 0 auto;
+width: 535px;
+height: 610px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .content1{/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 120px;
+gap: 40px;
+
+margin: 0 auto;
+width: 633px;
+height: 610px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+}
+        .BYNWA{/* Build your needs with Archmove */
+
+width: 393px;
+height: 120px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 124%;
+/* or 60px */
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+        .feature-1{/* feature-1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 38px;
+
+width: 407px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+        .icon{/* icon */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .img7{/* Vector 1 */
+
+box-sizing: border-box;
+
+
+width: 5px;
+height: 1.08px;
+left: 25.5px;
+top: 19px;
+
+color: #FD665E;
+
+
+box-sizing: border-box;
+
+
+width: 48px;
+height: 55.08px;
+left: 8px;
+top: 4px;
+
+border: 4px solid #000000;
+}
+        .content2{/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 305px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .text1{/* 100% guaranteed project completion */
+
+width: 305px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .text2{/* Build safe, comfortable and transparent with a project management application with a joint account. */
+
+width: 305px;
+height: 78px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+letter-spacing: 0.01em;
+
+color: #272727;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .feature-2{/* feature-2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 409px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+        .icon1{/* icon */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .img8{/* $ */
+
+
+width: 11px;
+height: 17px;
+left: 30px;
+top: 29px;
+
+background: #FD665E;
+}
+        .Rectangle1{/* Rectangle 6 */
+
+box-sizing: border-box;
+
+
+width: 39px;
+height: 48px;
+left: 13px;
+top: 8px;
+
+border: 4px solid #000000;
+}
+        .content3{/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 305px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .text3{/* No additional fees */
+
+width: 305px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .text4{/* There are no hidden costs. The value of the offer you get is the value you paid. */
+
+width: 305px;
+height: 78px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+letter-spacing: 0.01em;
+
+color: #272727;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .feature-3{/* feature-3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 39px;
+
+width: 408px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+        .icon2{/* icon */
+
+width: 64px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .img9{/* Ellipse 1 */
+
+box-sizing: border-box;
+
+
+width: 14px;
+height: 14px;
+left: 25.5px;
+top: 22px;
+
+border: 4px solid #FD665E;
+}
+        .Rectangle2{/* Rectangle 7 */
+
+box-sizing: border-box;
+
+
+width: 40px;
+height: 53px;
+left: 12.5px;
+top: 5px;
+
+border: 4px solid #000000;
+}
+        .content4{/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 305px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .text5{/* Get escort from the Team */
+
+width: 305px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+        .text6{/* Monitor reports from the Arsitag team who check directly in the field. */
+
+width: 305px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+letter-spacing: 0.01em;
+
+color: #272727;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .button1{/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 32px;
+gap: 10px;
+
+width: 187px;
+height: 56px;
+
+background: #FD665E;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+        .FC1{/* Free Consultation */
+
+width: 123px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height, or 286% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.testimonial{/* testimonial */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 165px;
+gap: 64px;
+
+width: 1440px;
+height: 730px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+}        
+.text7{/* Sound Too Good To Be True? */
+
+width: 374px;
+height: 120px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 124%;
+/* or 60px */
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.content5{/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 48px;
+
+width: 1110px;
+height: 386px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.testimonial1{/* testimonial */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+width: 870.02px;
+height: 290px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.img10{/* “ */
+
+width: 57.02px;
+height: 39.73px;
+
+color: #FD665E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text8{/* “We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.” */
+
+width: 765px;
+height: 290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 160%;
+/* or 58px */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.client{/* client */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 445px;
+
+width: 765px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.text9{/* Adam Morph — CEO Alfatech */
+
+margin: 0 auto;
+width: 227px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.wrapper5{/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 104px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.button-icon2{/* button icon */
+
+width: 48px;
+height: 48px;
+
+background: rgba(0, 0, 0, 0.03);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.dc3{/* dashicons:arrow-right-alt */
+
+width: 20px;
+height: 20px;
+left: 14px;
+top: 14px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.img11{/* img */
+
+
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+color: #FD665E;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.button-icon3{/* button icon */
+
+width: 48px;
+height: 48px;
+
+background: rgba(0, 0, 0, 0.03);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.dc4{/* dashicons:arrow-right-alt */
+
+
+width: 20px;
+height: 20px;
+left: 14px;
+top: 14px;
+
+}
+.img12{/* Vector */
+
+
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+color: #FD665E;
+}
+
+   
+.cta{/* cta */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 64px 136px;
+gap: 48px;
+
+width: 1440px;
+height: 1250px;
+
+background: linear-gradient(180deg, #F9F9F9 0%, rgba(255, 255, 255, 0) 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+}
+.imggroup{/* img */
+
+width: 497px;
+height: 684px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.img13{/* image 4 */
+
+
+width: 130px;
+height: 84px;
+
+
+
+background: url(image.png);
+}
+.img14{/* image 3 */
+
+
+width: 201px;
+height: 130px;
+
+
+
+background: url(image.png);
+}
+.mask-group{/* Mask Group */
+
+
+width: 397px;
+height: 684px;
+
+
+
+}
+.img15{/* image 1 */
+
+
+width: 446px;
+height: 1005px;
+left: 172px;
+top: 88px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 26.38%, #FFFFFF 66.15%), url(image.png);
+}
+
+.content6{/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+width: 623px;
+height: 296px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.text10{/* Realize your dream project with Archmove */
+
+width: 623px;
+height: 192px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 100%;
+/* or 64px */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.button2{/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 32px;
+gap: 10px;
+
+width: 213px;
+height: 56px;
+
+background: #FD665E;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.text11{/* FREE CONSULTATION */
+
+width: 149px;
+height: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height, or 286% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.partner{/* partner */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 64px 136px 48px;
+gap: 40px;
+
+width: 1440px;
+height: 324px;
+
+border-bottom: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+}
+.text12{/* Our Partners */
+
+width: 374px;
+height: 60px;
+
+font-family: 'New York Extra Large';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 124%;
+/* identical to box height, or 60px */
+letter-spacing: -0.04em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.logos{/* logos */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 0px;
+gap: 75px;
+
+width: 1168px;
+height: 112px;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.U-Turn{/* U-Turn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16.0147px;
+gap: 3.2px;
+
+margin: 0 auto;
+width: 134.7px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.logo{/* Logo */
+
+width: 102.68px;
+height: 22.7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Nextmove{/* Nextmove */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16.0147px;
+gap: 3.2px;
+
+margin: 0 auto;
+width: 175.95px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.logo1{/* Logo */
+
+width: 143.92px;
+height: 20.63px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Pinpoint{/* Pinpoint */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16.0147px;
+gap: 3.2px;
+
+margin: 0 auto;
+width: 155.77px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.logo2{/* Logo */
+
+width: 123.75px;
+height: 30.75px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Leafe{/* Leafe */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 11.2103px 16.0147px;
+gap: 3.2px;
+
+margin: 0 auto;
+width: 114.25px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.logo3{/* Logo */
+
+width: 82.22px;
+height: 25.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Terra{/* Terra */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16.0147px;
+gap: 3.2px;
+
+margin: 0 auto;
+width: 123.88px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.logo4{/* Logo */
+
+width: 91.85px;
+height: 26.11px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Dune{/* Dune */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16.0147px;
+gap: 3.2px;
+
+margin: 0 auto;
+width: 120.4px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+.logo5{/* Logo */
+
+width: 88.37px;
+height: 28.56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+footer{
+/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.wrapper6{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.nav-item2{/* footer */
+
+/* Auto layout */
+display: flex;
+
+
+padding: 80px 0px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.AU{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 0px;
+gap: 8px;
+
+width: 100px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.HIT2{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 100px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.FAQ{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 100px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.CU{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 100px;
+gap: 8px;
+
+width: 100px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.PP{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.logot{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.move2{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+.Arch2{/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 136px;
+gap: 8px;
+
+width: 1440px;
+height: 212.24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
