@@ -1,4 +1,4 @@
-console.log('1.');
+/*console.log('1.');
 let a=10;
 let b=5;
 let c=a+b;
@@ -63,5 +63,55 @@ m9.forEach(element => console.log(element*2));
 
 console.log('16.');
 
+setTimeout(function(){
+    console.log('hello');
+},2000);
 
 
+setTimeout(function(){
+    console.log('Loading...');
+},3000);
+
+
+const name1="Alex";
+
+setTimeout(() => {
+    console.log("Привет, " + name1);
+}, 1000);
+
+function sayHello() {
+    console.log("Hello!");
+}
+
+setTimeout(sayHello, 1500);
+
+let timerId=setTimeout(() => console.log("ничего не происходит"), 1000);
+console.log(timerId);
+
+clearTimeout(timerId);
+console.log(timerId);
+
+setInterval(() => console.log("Прошла одна секунда"), 1000);
+
+setInterval(() => console.log("Тик"), 3000);
+
+
+const btn=document.querySelector('button');
+btn.addEventListener('click', () => {
+    setTimeout(() => {
+        alert("Готово!");
+    }, 2000);
+});*/
+
+let i=5;
+
+const intervalID=setInterval(() => {
+    console.log(i);
+    if(i===1){
+        clearInterval(intervalID);
+        console.log("конец");
+    }
+    i--;
+    console.log
+}, 1000,)
+;   
