@@ -253,8 +253,3 @@ function sum1(a,b,c){
  }
  sum1(7,213,312)
 
- const generateUmnFinder=()=>{
-    const Umn=(a,b,c)=>a*b*c;
-    return Umn;
-        };
-    const Umn=generateUmnFinder();
