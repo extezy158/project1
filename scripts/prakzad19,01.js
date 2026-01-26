@@ -134,4 +134,49 @@ let numbers=[1,2,3,4,5,6,7,8,9,10, null, undefined, "1", '2'];
           console.log(myWallet(100));
           console.log(myWallet(50));
           console.log(myWallet(-20));
-          console.log(myWallet()); 
+          console.log(myWallet());
+
+          const promise = new Promise((resolve, reject) => {
+           resolve("Готово");
+          });
+          promise.catch(error => {
+            console.log(error);
+          });
+
+          promise.finally(() => {
+            console.log("Завершено");
+          });
+
+          async function loadData() {
+            try {
+                const res=await fetch(url);
+                const data=await res.json();
+                console.log(data);
+            }catch(error){
+                console.log(error);
+            }
+          }
+          function createPromiseChain() {
+            return new Promise((resolve, reject) => {
+              resolve(10); })
+              .then((num) => {
+              return num * 2; })
+              .then((result) => {
+              return result + 5; })
+              .then((finalResult) => {
+              console.log(finalResult); 
+            });
+          }
+          
+          createPromiseChain();
+
+         fetch("https://jsonplaceholder.typicode.com/users")
+         .then((res)=>res.json())
+         .then((users)=>
+         {
+            users.forEach((user)=>
+            {
+                console.log(user.name);
+            })
+            .catch((err)=>console.log("Ошибка:", err));
+         })
